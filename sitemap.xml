@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.amelia-argenziano.com/</loc>
+  <lastmod>2015-10-22T15:31:37+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.amelia-argenziano.com/index.html</loc>
+  <lastmod>2015-10-22T15:31:37+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.amelia-argenziano.com/biografia.html</loc>
+  <lastmod>2015-09-30T07:08:47+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.amelia-argenziano.com/opere.php</loc>
+</url>
+<url>
+  <loc>http://www.amelia-argenziano.com/imparalarte.html</loc>
+  <lastmod>2015-09-30T07:08:48+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.amelia-argenziano.com/contatti.html</loc>
+  <lastmod>2016-02-05T17:09:42+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.amelia-argenziano.com/noteBiografiche.pdf</loc>
+  <lastmod>2015-08-14T11:46:45+00:00</lastmod>
+</url>
+</urlset>
