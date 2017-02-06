@@ -4,18 +4,18 @@ function get_list_view_html($product_id, $product) {
 
     $output = "";
 
-    $output = $output . '<div class="col-xs-6 col-md-4 col-lg-3 el '. $product["tag"] .'">';
-    $output = $output . '<div class="portfolio-el view">';
-    $output = $output . '<img src="images/Opere/'. $product["img"] .'" alt="project">';
-    $output = $output . '<a href="images/Opere/'. $product["img"] .'" class="mask">';
-    $output = $output . '<div class="portfolio-middle">';
-    $output = $output . '<h3 class="project-title br-bottom">'. $product["name"] .'</h3>';
-    $output = $output . '<p class="text">'. $product["text"] .'</p>';
-    $output = $output . "</div>";
-    $output = $output . '<p class="date">'. $product["size"] .'</p>';
-    $output = $output . "</a>";
-    $output = $output . "</div>";
-    $output = $output . "</div> <!-- END portfolio Item -->";
+    $output .= '<div class="col-xs-6 col-md-4 col-lg-3 el '. $product["tag"] .'">';
+    $output .= '<div class="portfolio-el view">';
+    $output .= '<img src="images/Opere/'. $product["img"] .'" alt="project">';
+    $output .= '<a href="images/Opere/'. $product["img"] .'" class="mask">';
+    $output .= '<div class="portfolio-middle">';
+    $output .= '<h3 class="project-title br-bottom">'. $product["name"] .'</h3>';
+    $output .= '<p class="text">'. $product["text"] .'</p>';
+    $output .= "</div>";
+    $output .= '<p class="date">'. $product["size"] .'</p>';
+    $output .= "</a>";
+    $output .= "</div>";
+    $output .= "</div> <!-- END portfolio Item -->";
 
     return $output;
 }
