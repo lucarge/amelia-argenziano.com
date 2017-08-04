@@ -1,3 +1,13 @@
+<?php
+  $absolute_path = dirname(__FILE__);
+  $opening_hours = file_get_contents(
+    $absolute_path . '/admin/opening_hours.txt'
+  );
+  if($opening_hours === false) {
+    $opening_hours = 'Per conoscere gli orari sempre aggiornati, contattami telefonicamente o via email.';
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -123,7 +133,7 @@
           <div class="mb40"></div>
           <div class="box-left"><i class="fa fa-clock-o"></i></div>
           <div class="box-right">
-            <p>Per conoscere gli orari sempre aggiornati, <br> contattami telefonicamente o via email.</p>
+            <p><?php echo $opening_hours; ?></p>
           </div>
         </div>
       </div>
