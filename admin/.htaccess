@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "AmeliaArgenziano"
+AuthUserFile /home/ameliaar/public_html/.credentials/.htpasswd
+Require valid-user
